@@ -13,11 +13,50 @@
     <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
   </ion-avatar>
   <div class= "username" class="ion-text-center" >@jacob_w</div>
-  <div> 14 <br> Following</div>
-  <div>38 <br> Followers</div>
-  <div>91 <br> Likes</div>
-  <ion-button align-items-center class="editProfile">Edit Profile</ion-button>
-  <ion-button class="createShopProfile">Create Shop Profile</ion-button>
+
+  <ion-grid class="grid">
+    <ion-row>
+      <ion-col size="4">
+        <ion-text class="stats">14<br>Following</ion-text>
+      </ion-col>
+      <ion-col size="4">
+        <ion-text class="stats">38<br>Followers</ion-text>
+      </ion-col>
+      <ion-col size="4">
+        <ion-text class="stats">5<br>Likes</ion-text>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <!---
+  <div class="center-container"> 14 Following</div>
+  <div class="center-container">38 <br> Followers</div>
+  <div class="center-container">91 <br> Likes </div>
+-->
+
+  <div class="center-container-buttons"> 
+    <ion-button fill="outline" class="editProfile" color="dark" >Edit Profile</ion-button> 
+    <ion-button fill="outline" color="dark"><ion-icon name="bookmark-outline" ></ion-icon></ion-button>
+  </div>
+
+  <div class="center-container-buttons"> 
+    <ion-button class="createShopProfile" fill="outline" color="dark">Create Shop Profile</ion-button>
+  </div>
+
+  <div class="center-container"> 
+    <ion-icon  size="large" class="icon-tabs" name="reorder-four-outline"></ion-icon>
+    <ion-icon size="large"  class="icon-with-underline" name="duplicate-outline"></ion-icon>
+    <ion-icon size="large" class="icon-tabs" name="heart-outline"></ion-icon>
+  </div>
+
+  <div class="center-container">
+    <ion-card>
+      <ion-img src="assets/NikeShoes.jpeg"></ion-img>
+    </ion-card>
+    <ion-card>
+      <ion-img src="assets/dress.jpeg"></ion-img>
+    </ion-card>
+  </div>
+
 
 
 </ion-content>

@@ -11,15 +11,66 @@
     max-width: 100px !important;  //any size
     max-height: 100px 
 }
+.grid {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.stats {
+    margin-left: 30%;
+}
 
 .editProfile {
     width: fit-content;
-    margin: auto;
     padding: 3%;
-    flex: auto;
-    align-items: center;
+    margin:0%;
 }
 
-.ion-button {
-    color: #ffffff;
+.createShopProfile {
+    width: 60%;
+    padding: 3%;
+    margin:0%
 }
+
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    //height: 100%; /* Optionally, set a specific height for the container */
+  }
+
+.center-container-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5%;
+    //height: 100%; /* Optionally, set a specific height for the container */
+  }
+
+  .icon-tabs {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .icon-with-underline {
+    margin-right: 10%;
+    margin-left: 10%;
+    position: relative;
+  
+    /* Add some padding if needed */
+    padding-bottom: 10px; /* Adjust the value as per your design */
+  
+    /* Define the color and size of the underline */
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px; /* Adjust the height as per your design */
+      background-color: black; /* Change to your desired underline color */
+    }
+  }
+  
