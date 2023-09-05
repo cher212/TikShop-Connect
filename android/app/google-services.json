@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1012594928065",
+    "project_id": "tiktok-hackathon",
+    "storage_bucket": "tiktok-hackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012594928065:android:cd36993ac5dbac27bb6740",
+        "android_client_info": {
+          "package_name": "com.tiktok.tikshopconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012594928065-74ka8kpo4d2nqndcdamaksoa8e8o0aqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLYYx_9wGsfvJZWKycx0c4f34LoreR38A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012594928065-74ka8kpo4d2nqndcdamaksoa8e8o0aqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

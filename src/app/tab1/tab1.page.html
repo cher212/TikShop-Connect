@@ -1,17 +1,23 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
+<ion-header>
+   <ion-toolbar>
+      <ion-button start>      
+        <ion-icon name="person-add"></ion-icon>
+      </ion-button>
+      <ion-title>Jacob West</ion-title>
+   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-content [fullscreen]="true">
+  <ion-avatar class="avatar">
+    <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+  </ion-avatar>
+  <div class= "username" class="ion-text-center" >@jacob_w</div>
+  <div> 14 <br> Following</div>
+  <div>38 <br> Followers</div>
+  <div>91 <br> Likes</div>
+  <ion-button align-items-center class="editProfile">Edit Profile</ion-button>
+  <ion-button class="createShopProfile">Create Shop Profile</ion-button>
+
+
 </ion-content>

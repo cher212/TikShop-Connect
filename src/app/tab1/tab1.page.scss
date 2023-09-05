@@ -1,0 +1,25 @@
+.bar-header {
+    border: 1px !important;
+    border-bottom-color: #7d7d7d !important;
+}
+
+.avatar {
+    margin: auto;
+    margin-top: 10%;
+    width:100% !important;  
+    height : 100% !important;
+    max-width: 100px !important;  //any size
+    max-height: 100px 
+}
+
+.editProfile {
+    width: fit-content;
+    margin: auto;
+    padding: 3%;
+    flex: auto;
+    align-items: center;
+}
+
+.ion-button {
+    color: #ffffff;
+}
