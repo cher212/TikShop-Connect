@@ -49,6 +49,18 @@
     //height: 100%; /* Optionally, set a specific height for the container */
   }
 
+.custom-card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-card {
+  width: 165px;
+  height: 131px;
+  border-radius: 20px;
+  
+}
+
 .center-container-buttons {
     display: flex;
     justify-content: center;
@@ -81,4 +93,18 @@
       background-color: black; /* Change to your desired underline color */
     }
   }
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.shoes-text {
+  font-size: 15px;
+  font-weight: 900;
+  color: black;
+  display: block;
+  margin-left: 20px;
+}
+
   
