@@ -1,43 +1,14 @@
-.custom-rectangle {
-  width: 123px;
-  height: 39px;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.shoes-text {
-  color: #000;
-  font-family: sans-serif;
+h1 {
   font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-weight: bolder;
+  margin-left: 10px;
 }
 
-.custom-icon {
-  width: 19px;
-  height: 17px;
-  border-radius: 4px; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 0; 
-  margin-right: 5px; 
-} 
-
-.collaborators-rectangle {
-  margin-left: 20px;
-  margin-top: 5px;
-  display: flex;
-  align-items: center;
+.collaborator-container {
+  margin-left: 10px;
+  color: gray;
 }
 
-.collaborators-text {
-  color: #9B9B9B;
-  font-family: sans-serif;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration-line: underline;
+.collaborator-container ion-text {
+  text-decoration: underline;
 }
