@@ -1,17 +1,21 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
+<ion-header>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@200&family=Source+Code+Pro&display=swap" rel="stylesheet">
+   <ion-toolbar>
+    <ion-title>Jacob West</ion-title>
+   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="custom-rectangle">
+    <ion-text class="shoes-text">Shoes</ion-text>
+  </div>
+
+  <div class="collaborators-rectangle"> 
+    <ion-img src="../assets/AddAccountIcon.png" class="custom-icon"></ion-img>
+    <ion-text class="collaborators-text">4 collaborators</ion-text>  
+  </div>
 
   <app-explore-container name="Tab 2 page"></app-explore-container>
 </ion-content>
