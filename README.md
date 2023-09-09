@@ -6,19 +6,18 @@ Hello TikTok fans! We are a group of sophomores from NUS Computing, all majoring
 ## Inspiration  
 The inspiration for TikShop Connect came from our members using the TikTok shopping feature and finding it difficult to share their favourite items to their friends. Currently, they would have to individually share the product listing via TikTok chats or share the link via other communication platforms.
 
-**User Stories**      
+### User Stories     
 Imagine a TikTok user, Rachel, who is an avid fashion enthusiast. She frequently scrolls through TikTok Shop and her TikTok For You Page to discover new clothing trends and she likes finding brands endorsed by her favourite influencers. However, Rachel finds it troublesome to share her favourite items with her friends as she has to message them about it on a separate chatbox. Rachel wishes the TikTok shop function could be more social and allow for **more interaction** between her friends and her favourite influencers. Rachel also wishes there was a **centralised space for her to view all the items** liked by her favourite influencers, without having to endlessly scroll through videos.
 
 ## What it does      
 Our solution is to create a personalised TikTok shop profile embedded into the current TikTok profile for users based on a short quiz. The quiz will ask users for their **style preferences**, **favourite users from the list they are following**, their **sizing**, **favourite brands**. After the quiz, users can find people with similar interests through hashtags and follow their favourites/wishlist page for more inspiration. The user’s profile page will also have an additional “Shopping Pins” tab where they can create folders to collate their favourite products. These folders can be shared with their friends who can also add products. Followers can easily buy whichever products they like through the “Shopping Pins” tab.
 
-## How we built it     
-**Software Engineering Methodology**    
+### How we built it     
+#### Software Engineering Methodology    
 Our primary software engineering approach is the **Waterfall Model**. Although an iterative and incremental method like Agile could be more advantageous, the limited timeframe makes it impractical for us to constantly adjust and respond to changing conditions. Consequently, we **require a more organised and inflexible system to be established**.
 
 Visual illustration of the Waterfall Model - https://t3.ftcdn.net/jpg/04/86/69/10/360_F_486691061_PMoiYbT9xGZ5nxUJzDU1pqsAsgxnRw2o.jpg 
-
-**Some of the secondary approach we adopted are :**       
+##### **Some of the secondary approach we adopted are :**       
 **Version Control :** We used version control systems like Git, which allow us to track changes to code, collaborate effectively, and easily revert to previous versions if needed.
 
 **Code Reviews :** We also adopt the habit of regularly reviewing our code together as a team to assess for bugs, adherence to coding standards, and overall quality. This practice helps us identify issues early and maintain code quality.
