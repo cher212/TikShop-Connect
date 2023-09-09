@@ -1,8 +1,8 @@
-**TikShop Connect with Personalised Shopping Profiles and Shopping Boards**   
+# TikShop Connect with Personalised Shopping Profiles and Shopping Boards**   
 
-**Brief biography of our members**  
+## Brief biography of our members  
 Hello TikTok fans! We are a group of sophomores from NUS Computing, all majoring in Information Systems. We joined this hackathon as part of our ongoing journey of seeking something new and interesting to try, and we hope to learn more through this project while also contributing ideas towards improving TikTok's user experience.
-
+ 
 **Inspiration**  
 The inspiration for TikShop Connect came from our members using the TikTok shopping feature and finding it difficult to share their favourite items to their friends. Currently, they would have to individually share the product listing via TikTok chats or share the link via other communication platforms.
 
