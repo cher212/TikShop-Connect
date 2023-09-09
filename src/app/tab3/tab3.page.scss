@@ -56,4 +56,98 @@ h1 {
   height: 27px;
   margin-right: 12px;
 }
+
+.round-image {
+  border-radius: 47px;
+  width: 47px;
+  height: 47px;
+  float: left; 
+  margin-right: 10px;
+}
+
+
+  /* CSS to remove border shadow on ion-card */
+ion-card {
+  box-shadow: none; 
+}
+
+ion-item {
+  margin-left: 0px; /* Adjust the left margin as needed */
+}
+
+.comment-details {
+  float: left; 
+  width: calc(100% - 120px); 
+}
+
+.user-name {
+  font-weight: bold; 
+  margin: 0; 
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+/* CSS class for comment text */
+.comment-text {
+  margin: 0; 
+  color: #767676;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* CSS class for reply text */
+.reply-text {
+  display: block; 
+  margin-top: 10px; 
+  color: #000;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.add-comment-bar {
+  border-radius: 24px;
+  //background-color: #E9E9E9;
+  width: 333px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/* CSS for the "Add a Comment" text box */
+.comment-input {
+  flex: 1; /* Allow the text box to grow and fill the available space */
+  border: none;
+  padding: 5px;
+  color: #767676;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #E9E9E9;
+  border-radius: 24px;
+}
+
+.profile-image {
+  width: 33px;
+  height: 33px;
+  border-radius: 33px;
+  margin-left: 22px;
+  margin-right: 10px; 
+
+}
+
+
   
