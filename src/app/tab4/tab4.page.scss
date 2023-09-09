@@ -1,0 +1,23 @@
+h1,
+h3 {
+  text-align: center;
+}
+
+ion-card ion-list {
+  display: grid;
+}
+
+ion-list ion-checkbox {
+  padding: 5px;
+  --checkbox-background-checked: lightblue;
+}
+
+.submit-container > ion-list {
+  display: grid;
+  align-items: center;
+  padding: 10px;
+}
+
+.submit-container > ion-list > ion-button {
+  --background: lightblue;
+}

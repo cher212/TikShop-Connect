@@ -1,31 +1,36 @@
 <ion-header>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@200&family=Source+Code+Pro&display=swap" rel="stylesheet">
-   <ion-toolbar>
-      <ion-button start>      
-        <ion-icon name="person-add"></ion-icon>
-      </ion-button>
-      <ion-title>Jacob West</ion-title>
-   </ion-toolbar>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@200&family=Source+Code+Pro&display=swap"
+    rel="stylesheet"
+  />
+  <ion-toolbar>
+    <ion-button start>
+      <ion-icon name="person-add"></ion-icon>
+    </ion-button>
+    <ion-title>Jacob West</ion-title>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-avatar class="avatar">
-    <ion-img src ="assets/cool-tiktok-profile-pictures-ncvhrzwtdjkc93bf (1).jpg" />
+    <ion-img
+      src="assets/cool-tiktok-profile-pictures-ncvhrzwtdjkc93bf (1).jpg"
+    />
   </ion-avatar>
-  <div class= "username" class="ion-text-center" >@jacob_w</div>
+  <div class="username" class="ion-text-center">@jacob_w</div>
 
   <ion-grid class="grid">
     <ion-row>
       <ion-col size="4" class="center-text">
-        <ion-text class="stats">14<br>Following</ion-text>
+        <ion-text class="stats">14<br />Following</ion-text>
       </ion-col>
       <ion-col size="4" class="center-text">
-        <ion-text class="stats">38<br>Followers</ion-text>
+        <ion-text class="stats">38<br />Followers</ion-text>
       </ion-col>
       <ion-col size="4" class="center-text">
-        <ion-text class="stats">5<br>Likes</ion-text>
+        <ion-text class="stats">5<br />Likes</ion-text>
       </ion-col>
     </ion-row>
   </ion-grid>
@@ -35,20 +40,36 @@
   <div class="center-container">91 <br> Likes </div>
 -->
 
-  <div class="center-container-buttons"> 
-    <ion-button fill="outline" class="editProfile" color="dark" >Edit Profile</ion-button> 
-    <ion-button fill="outline" color="dark"><ion-icon name="bookmark-outline" ></ion-icon></ion-button>
+  <div class="center-container-buttons">
+    <ion-button fill="outline" class="editProfile" color="dark"
+      >Edit Profile</ion-button
+    >
+    <ion-button fill="outline" color="dark"
+      ><ion-icon name="bookmark-outline"></ion-icon
+    ></ion-button>
   </div>
 
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeEhYFc-gOR7d5qO-vTFh_jWZOeJlfKrULGpNU5AYCjdEOeFA/viewform?usp=sf_link"> 
-    <div class="center-container-buttons"> 
-      <ion-button class="createShopProfile" fill="outline" color="dark">Create Shop Profile</ion-button>
-    </div>
-  </a>
+  <div class="center-container-buttons">
+    <ion-button
+      class="createShopProfile"
+      fill="outline"
+      color="dark"
+      (click)="navigateToQuizPage()"
+      >Create Shop Profile</ion-button
+    >
+  </div>
 
-  <div class="center-container"> 
-    <ion-icon  size="large" class="icon-tabs" name="reorder-four-outline"></ion-icon>
-    <ion-icon size="large"  class="icon-with-underline" name="duplicate-outline"></ion-icon>
+  <div class="center-container">
+    <ion-icon
+      size="large"
+      class="icon-tabs"
+      name="reorder-four-outline"
+    ></ion-icon>
+    <ion-icon
+      size="large"
+      class="icon-with-underline"
+      name="duplicate-outline"
+    ></ion-icon>
     <ion-icon size="large" class="icon-tabs" name="heart-outline"></ion-icon>
   </div>
 
@@ -58,40 +79,36 @@
         <ion-img src="assets/NikeShoes.jpeg"></ion-img>
       </ion-card>
       <div class="text-left">
-        <ion-text class = "text-right">Shoes</ion-text>
-        <ion-text class ="subtext">6 items</ion-text>
-        <ion-text class ="subtext">Shared with 3 people</ion-text>
+        <ion-text class="text-right">Shoes</ion-text>
+        <ion-text class="subtext">6 items</ion-text>
+        <ion-text class="subtext">Shared with 3 people</ion-text>
       </div>
     </ion-col>
-    
-    
-  
+
     <!-- Second card and text -->
     <ion-col size="6">
       <ion-card>
         <ion-img src="assets/dress.jpeg"></ion-img>
       </ion-card>
-      <div class = "text-left">
-        <ion-text class ="text-right">Dress</ion-text>
-        <ion-text class ="subtext">8 items</ion-text>
-        <ion-text class ="subtext">Shared with 1 people</ion-text>
+      <div class="text-left">
+        <ion-text class="text-right">Dress</ion-text>
+        <ion-text class="subtext">8 items</ion-text>
+        <ion-text class="subtext">Shared with 1 people</ion-text>
       </div>
     </ion-col>
   </ion-row>
-  
+
   <!-- Third card and text -->
   <ion-row>
     <ion-col size="6">
       <ion-card>
         <ion-img src="assets/family.jpg"></ion-img>
       </ion-card>
-      <div class = "text-left">
+      <div class="text-left">
         <ion-text class="text-right">Family</ion-text>
-        <ion-text class ="subtext">6 items</ion-text>
-        <ion-text class ="subtext">Shared with 2 people</ion-text>
+        <ion-text class="subtext">6 items</ion-text>
+        <ion-text class="subtext">Shared with 2 people</ion-text>
       </div>
-      
     </ion-col>
   </ion-row>
-  
 </ion-content>

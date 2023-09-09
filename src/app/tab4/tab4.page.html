@@ -1,0 +1,99 @@
+<ion-header>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@200&family=Source+Code+Pro&display=swap"
+    rel="stylesheet"
+  />
+  <ion-toolbar>
+    <ion-title>Jacob West</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1>This or That?</h1>
+  <h3>Let us get to know you better!</h3>
+  <div class="card-container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>I like...</ion-card-title>
+        <ion-card-subtitle
+          >Tell us more about your style preferences!</ion-card-subtitle
+        >
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-list>
+          <ion-checkbox>Street Style</ion-checkbox>
+          <ion-checkbox>Korean Style</ion-checkbox>
+          <ion-checkbox>Minimalist Style</ion-checkbox>
+          <ion-checkbox>Vintage Style</ion-checkbox>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>My favourite influencer is...</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-input placeholder="Input their username here!"></ion-input>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>I usually buy clothes of size...</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-list>
+          <ion-checkbox>XS</ion-checkbox>
+          <ion-checkbox>S</ion-checkbox>
+          <ion-checkbox>M</ion-checkbox>
+          <ion-checkbox>L</ion-checkbox>
+          <ion-checkbox>XL</ion-checkbox>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>My favourite brands include...</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-list>
+          <ion-checkbox>Uniqlo</ion-checkbox>
+          <ion-checkbox>Cotton On</ion-checkbox>
+          <ion-checkbox>H&M</ion-checkbox>
+          <ion-checkbox>Zara</ion-checkbox>
+          <ion-input label="Others" placeholder="Brand name"></ion-input>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>I like buying...</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-list>
+          <ion-checkbox>Clothes</ion-checkbox>
+          <ion-checkbox>Toys</ion-checkbox>
+          <ion-checkbox>Crystals</ion-checkbox>
+          <ion-checkbox>Sporting Goods</ion-checkbox>
+          <ion-input label="Others" placeholder="Item category"></ion-input>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div class="submit-container">
+    <ion-list>
+      <ion-button>Submit</ion-button>
+    </ion-list>
+  </div>
+</ion-content>
