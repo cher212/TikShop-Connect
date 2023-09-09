@@ -1,17 +1,23 @@
-<ion-header [translucent]="true">
+<ion-header>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@200&family=Source+Code+Pro&display=swap"
+    rel="stylesheet"
+  />
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-title>Jacob West</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <h1>Shoes</h1>
+  <div class="collaborator-container">
+    <ion-icon name="person-add"></ion-icon>
+    <ion-text style="margin-left: 5px">4 Collaborators</ion-text>
+  </div>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <div class="image-box">
+    <img src="../../assets/NikeShoes.jpeg" class="shoe-image">
+  </div>
 </ion-content>
