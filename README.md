@@ -13,7 +13,7 @@ Imagine a TikTok user, Rachel, who is an avid fashion enthusiast. She frequently
 Our solution is to create a personalised TikTok shop profile embedded into the current TikTok profile for users based on a short quiz. The quiz will ask users for their **style preferences**, **favourite users from the list they are following**, their **sizing**, **favourite brands**. After the quiz, users can find people with similar interests through hashtags and follow their favourites/wishlist page for more inspiration. The user’s profile page will also have an additional “Shopping Pins” tab where they can create folders to collate their favourite products. These folders can be shared with their friends who can also add products. Followers can easily buy whichever products they like through the “Shopping Pins” tab.
 
 ### How we built it     
-#### Software Engineering Methodology
+#### <u>Software Engineering Methodology </u>
 
 Our primary software engineering approach is the **Waterfall Model**. Although an iterative and incremental method like Agile could be more advantageous, the limited timeframe makes it impractical for us to constantly adjust and respond to changing conditions. Consequently, we **require a more organised and inflexible system to be established**.
 
@@ -27,12 +27,12 @@ Visual illustration of the Waterfall Model - https://t3.ftcdn.net/jpg/04/86/69/1
 
 **Adhering to the KISS Principle :** The principle stands for “Keep It Short and Simple”. We strongly adhere to this design principle, keeping our code as simple as possible. This approach allows us to avoid unnecessary complexity, making the code easier to understand, maintain, and debug.
 
-#### **Tech Stack and Features**      
+#### <u>Tech Stack and Features</u>      
 Tech Stack used : HTML, CSS, typescript, Angular , Ionic Framework, Github
 
 Our features are built **using Ionic Framework and Angular for the front-end user interface**. We simulated a user’s TikTok profile page on an Android phone, and incorporated our “Shopping Pins” feature as an additional profile tab. The shop profile quiz is included as a separate button on the profile page called “Create Shop Profile”, and we intended to store the user’s quiz answers into a **database such as Firebase** in our future implementations.
 
-#### **GitHub Management**    
+#### <u>GitHub Management</u>    
 In our project, we utilised GitHub for version control and we chose to adopt the branching workflow as our collaborative approach.
 
 GitHub served as our primary collaboration platform during the development of our project. While using branches and pull requests for most of our work, in cases where conflicts arose during the merging process, we opted to convene and resolve the conflicts collectively. Our aim was to ensure a smooth and error-free merging process.
