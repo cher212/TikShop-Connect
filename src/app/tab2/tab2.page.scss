@@ -12,3 +12,22 @@ h1 {
 .collaborator-container ion-text {
   text-decoration: underline;
 }
+
+.shoe-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.shoe-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px; 
+}
+
+.shoe-text {
+  margin-top: 10px; 
+  color: #333; 
+  font-size: 10px;
+  font-weight: 400; 
+}
