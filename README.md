@@ -27,12 +27,12 @@ Visual illustration of the Waterfall Model - https://t3.ftcdn.net/jpg/04/86/69/1
 
 **Adhering to the KISS Principle :** The principle stands for “Keep It Short and Simple”. We strongly adhere to this design principle, keeping our code as simple as possible. This approach allows us to avoid unnecessary complexity, making the code easier to understand, maintain, and debug.
 
-##### **Tech Stack and Features**      
+#### **Tech Stack and Features**      
 Tech Stack used : HTML, CSS, typescript, Angular , Ionic Framework, Github
 
 Our features are built **using Ionic Framework and Angular for the front-end user interface**. We simulated a user’s TikTok profile page on an Android phone, and incorporated our “Shopping Pins” feature as an additional profile tab. The shop profile quiz is included as a separate button on the profile page called “Create Shop Profile”, and we intended to store the user’s quiz answers into a **database such as Firebase** in our future implementations.
 
-##### **GitHub Management**    
+#### **GitHub Management**    
 In our project, we utilised GitHub for version control and we chose to adopt the branching workflow as our collaborative approach.
 
 GitHub served as our primary collaboration platform during the development of our project. While using branches and pull requests for most of our work, in cases where conflicts arose during the merging process, we opted to convene and resolve the conflicts collectively. Our aim was to ensure a smooth and error-free merging process.
